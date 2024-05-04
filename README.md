@@ -104,15 +104,19 @@ VisionX is a niche desktop application crafted in C++ utilizing the Qt framework
    | :----------------------------: | :-----------------------------: |
    | ![](Results/local-thresh-2.png) | ![](Results/multi-thresh.png) |
 
-   for more details about this tab and results check [Report 4](docs/Report%204.pdf)
+   for more details about this tab and results check [Report 4](docs/Computer%20Vision%20Task%204%20Report%20%20.pdf)
 
 10. Segmentation Methods tab:
     User can segment RGB images with 4 types of segmentation:
-    | K-Means Segmentation | Mean Shift Segmentation | Agglomerative Segmentation | Region Growing |
-    | :----------------------------: | :-----------------------------: | :--------------------------------: | :--------------------------------: |
-    | ![](samples/k-means.png) | ![](samples/mean-shift-seg.png) | ![](samples/agg-seg.png) | ![](samples/region-growing.png) |
+    | K-Means Segmentation | Mean Shift Segmentation |
+    | :----------------------------: | :-----------------------------: |
+    | ![](Results/k-means.png) | ![](Results/mean-shift.png) |
 
-for more details about this tab and results check [Report 4](docs/Report%204.pdf)
+    | Agglomerative Segmentation |         Region Growing          |
+    | :------------------------: | :-----------------------------: |
+    |  ![](Results/agg-seg.png)  | ![](Results/region-growing.png) |
+
+for more details about this tab and results check [Report 4](docs/Computer%20Vision%20Task%204%20Report%20%20.pdf)
 
 ### Project Structure Overview:
 
@@ -204,11 +208,11 @@ PKGCONFIG += opencv4
 
 <table>
   <tr>
-    <td align="center">
-    <a href="https://github.com/Youssef-Ashraf71" target="_black">
-    <img src="https://avatars.githubusercontent.com/u/83988379?v=4" width="150px;" alt="Youssef Ashraf"/>
+      <td align="center">
+    <a href="https://github.com/abduelrahmanemad" target="_black">
+    <img src="https://avatars.githubusercontent.com/u/104274128?v=4" width="150px;" alt="Abdulrahman Emad"/>
     <br />
-    <sub><b>Youssef Ashraf</b></sub></a>
+    <sub><b>Abdulrahman Emad</b></sub></a>
     </td>
     <td align="center">
     <a href="https://github.com/mouradmagdy" target="_black">
@@ -228,11 +232,11 @@ PKGCONFIG += opencv4
     <br />
     <sub><b>Mariam Ahmed</b></sub></a>
     </td>
-        <td align="center">
-    <a href="https://github.com/abduelrahmanemad" target="_black">
-    <img src="https://avatars.githubusercontent.com/u/104274128?v=4" width="150px;" alt="Abdulrahman Emad"/>
+     <td align="center">
+    <a href="https://github.com/Youssef-Ashraf71" target="_black">
+    <img src="https://avatars.githubusercontent.com/u/83988379?v=4" width="150px;" alt="Youssef Ashraf"/>
     <br />
-    <sub><b>Abdulrahman Emad</b></sub></a>
+    <sub><b>Youssef Ashraf</b></sub></a>
     </td>
       </tr>
  </table>

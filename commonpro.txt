@@ -34,6 +34,7 @@ SOURCES += \
     Controllers/siftcontroller.cpp \
     Controllers/thresholdcontroller.cpp \
     Controllers/agglomerativecontroller.cpp \
+    Controllers/kmeanscontroller.cpp  \
     Helpers/helpers.cpp \
     Helpers/scene.cpp \
     Helpers/clickable.cpp\
@@ -71,6 +72,7 @@ SOURCES += \
     UI/thresholdwidget.cpp \
     UI/houghtransormwidget.cpp \
     UI/agglomerativewidget.cpp \
+    UI/kmeanswidget.cpp    \
     config.cpp \
     main.cpp
 
@@ -91,6 +93,7 @@ HEADERS += \
     Controllers/siftcontroller.h \
     Controllers/thresholdcontroller.h \
     Controllers/agglomerativecontroller.h \
+    Controllers/kmeanscontroller.h    \
     Helpers/helpers.h \
     Helpers/scene.h \
     Helpers/clickable.h\
@@ -128,6 +131,7 @@ HEADERS += \
     UI/thresholdwidget.h \
     UI/houghtransormwidget.h \
     UI/agglomerativewidget.h \
+    UI/kmeanswidget.h    \
     config.h \
 
 
@@ -148,6 +152,7 @@ FORMS += \
     UI/thresholdwidget.ui  \
     UI/houghtransormwidget.ui \
     UI/agglomerativewidget.ui \
+    UI/kmeanswidget.ui     \
     UI/mainwindow.ui \
 
 
